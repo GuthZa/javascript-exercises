@@ -5,6 +5,8 @@ const getTheTitles = function (books) {
     titles.push(element[title]);
   });
   return titles;
+
+  //return books.map((book) => book.title);
 };
 
 // Do not edit below this line
