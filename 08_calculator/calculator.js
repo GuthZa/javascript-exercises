@@ -12,6 +12,8 @@ const sum = function (numbers) {
     !isNaN(element) ? (sum += +element) : 0;
   }
   return sum;
+
+  //return array.reduce((total, current) => total + current, 0);
 };
 
 const multiply = function (numbers) {
@@ -20,6 +22,8 @@ const multiply = function (numbers) {
     !isNaN(element) ? (sum *= +element) : 0;
   }
   return sum;
+
+  //return array.reduce((product, current) => product * current);
 };
 
 const power = function (a, b) {
@@ -28,6 +32,8 @@ const power = function (a, b) {
     sum *= a;
   }
   return sum;
+
+  //return Math.pow(a,b);
 };
 
 const factorial = function (a) {
